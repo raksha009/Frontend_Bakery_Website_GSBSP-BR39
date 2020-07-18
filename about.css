@@ -1,0 +1,139 @@
+body{
+            margin: 0px;
+            padding:0px;
+        }
+        section{
+    height: 200px;    /* Means full screen */
+    background: #000;
+    overflow: hidden;  /*hides text*/
+}
+    video{
+        margin-top: -250 ;
+    object-fit: cover;
+}
+    h1{
+            color: aliceblue;
+        letter-spacing: -10px;
+    margin-top: -210 ;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+/*    color: #fff;*/
+    font-size: 5em;
+    font-family:cursive;
+    text-transform: uppercase;  /* CAPITALIZES WORD*/
+}
+    h1 span{
+        
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+        
+        @keyframes animate{
+    0%{
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px)
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter:blur(0)
+    }
+}
+        h1 span:nth-child(1){
+/*    color:#186aa0;*/
+    opacity: 0;
+    animation-delay: 0.25s;
+}
+h1 span:nth-child(2){
+    opacity: 0;
+    animation-delay: 0.5s;
+}
+h1 span:nth-child(3){
+    opacity: 0;
+    animation-delay: 0.75s;
+}
+h1 span:nth-child(4){
+    opacity: 0;
+    animation-delay: 1s;
+}
+h1 span:nth-child(5){
+/*    color:#186aa0;*/
+    opacity: 0;
+    animation-delay: 1.25s;
+}
+h1 span:nth-child(6){
+    opacity: 0;
+    animation-delay: 1.5s;
+}
+h1 span:nth-child(7){
+    opacity: 0;
+    animation-delay: 2s;
+}
+h1 span:nth-child(8){
+    opacity: 0;
+    animation-delay: 2.25s;
+}
+h1 span:nth-child(9){
+    opacity: 0;
+    animation-delay: 2.5s;
+}
+        h1 span:nth-child(10){
+    opacity: 0;
+    animation-delay: 2.75s;
+}
+        h1 span:nth-child(11){
+    opacity: 0;
+    animation-delay: 3s;
+}
+        h1 span:nth-child(12){
+    opacity: 0;
+    animation-delay: 3.25s;
+}
+        h1 span:nth-child(13){
+    opacity: 0;
+    animation-delay: 3.5s;
+}
+
+        #sideimage{
+/*            bakground-image: url("bakery.jpg");*/
+            width:500px;
+            height: 360px;
+            background-repeat: no-repeat;
+            object-fit: cover;
+            margin: 20px 20px 20px 20px;
+            border-radius: 20%;
+        }
+#aboutme{
+    font-family: cursive;
+    font-size: 40px;
+    padding-left: 810px;
+    color: palevioletred;
+    
+}
+        
+        #heading{
+/*            float: left;*/
+            
+            padding-left: 620px;
+            font-family: 'Bree Serif';
+            font-size: 28px;
+            color: chocolate;
+        }
+        #subheading{
+            padding-left: 620px;
+            font-family: 'Crimson Pro';
+            font-size: 22px;
+        }
+
+.footer{
+        background-color: black;
+        width: 100%;
+        height:30px;
+        color: white;
+        text-align: center;
+    }
